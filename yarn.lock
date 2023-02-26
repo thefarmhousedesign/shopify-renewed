@@ -7370,12 +7370,12 @@ find-up@^6.2.0:
     locate-path "^7.1.0"
     path-exists "^5.0.0"
 
-find-versions@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/find-versions/-/find-versions-5.0.0.tgz#3e088dbc5083162c86fb36dbd7b84d64b9ee1e45"
-  integrity sha512-Jid3bdamPSNTb7r28PItNl/wm8frLj7NgEztJXK8UftodFRlynojEvUo4dyr5ftgfqgGhCF6DWaiJVFbpX3uPA==
+find-versions@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/find-versions/-/find-versions-5.1.0.tgz#973f6739ce20f5e439a27eba8542a4b236c8e685"
+  integrity sha512-+iwzCJ7C5v5KgcBuueqVoNiHVoQpwiUK5XFLjf0affFTep+Wcw93tPvmb8tqujDNmzhBDPddnWV/qgWSXgq+Hg==
   dependencies:
-    semver-regex "^4.0.0"
+    semver-regex "^4.0.5"
 
 find-yarn-workspace-root2@1.2.16:
   version "1.2.16"
@@ -12081,7 +12081,7 @@ semiver@^1.1.0:
   resolved "https://registry.yarnpkg.com/semiver/-/semiver-1.1.0.tgz#9c97fb02c21c7ce4fcf1b73e2c7a24324bdddd5f"
   integrity sha512-QNI2ChmuioGC1/xjyYwyZYADILWyW6AmS1UH6gDj/SFUUUS4MBAWs/7mxnkRPc/F4iHezDP+O8t0dO8WHiEOdg==
 
-semver-regex@^4.0.0:
+semver-regex@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/semver-regex/-/semver-regex-4.0.5.tgz#fbfa36c7ba70461311f5debcb3928821eb4f9180"
   integrity sha512-hunMQrEy1T6Jr2uEVjrAIqjwWcQTgOAcIM52C8MY1EZSD3DDNft04XzvYKPqjED65bNVVko0YI38nYeEHCX3yw==
