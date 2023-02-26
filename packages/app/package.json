@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "@luckycatfactory/esbuild-graphql-loader": "3.7.0",
-    "@oclif/core": "1.9.2",
+    "@oclif/core": "1.26.2",
     "@shopify/cli-kit": "3.24.1",
     "@shopify/shopify-cli-extensions": "3.21.0",
     "abort-controller": "3.0.0",
