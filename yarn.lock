@@ -12967,10 +12967,10 @@ tempy@^1.0.1:
     type-fest "^0.16.0"
     unique-string "^2.0.0"
 
-term-size@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/term-size/-/term-size-3.0.1.tgz#a2406b350e32b30e55f9878b55dfa10a27d7b712"
-  integrity sha512-2qG/4EwrpUQcNlEqsnAfgqBaKdNGOzLUyGV/7bai/cvEASTYPunua73HkOGeZH3A+tfWcQiJ8iAa13D7tHJk6g==
+term-size@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/term-size/-/term-size-3.0.2.tgz#bee88ca0afb8abbd423d698daac747f68aff5009"
+  integrity sha512-YfE8KwjrumviCxmeOS1r1hAwqUcd/AnhrG/Pol/Gry91EyUCS+jQH0qFUZOUkpGQ5rXsKMK6S6kjne53ytYS/w==
 
 term-size@^1.2.0:
   version "1.2.0"
