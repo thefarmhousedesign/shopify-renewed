@@ -2831,10 +2831,10 @@
   resolved "https://registry.yarnpkg.com/@shopify/function-enhancers/-/function-enhancers-2.0.8.tgz#c27e5bf9d3524c1a5807c524eb6e5c93337f85fc"
   integrity sha512-/nv59+ycOVV2ZKixl6V1d+xJmfMN40qUEmpFgbXhCnNjAE/vz3nJPal70Esp4Li2NR3GzKVJklZk3Y3pG+W1vw==
 
-"@shopify/hydrogen@0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@shopify/hydrogen/-/hydrogen-0.26.0.tgz#4eb5b9462ca54a4a19cc2027eef4bde08ff56819"
-  integrity sha512-tKmnk0w1no1UYl05Sm6/wi51sijKjjBUPhecXXvMEFG5aWYPRn9QPBarc1ExuhWxy2OTBsCZGBfi+usBkeostg==
+"@shopify/hydrogen@0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@shopify/hydrogen/-/hydrogen-0.27.2.tgz#fd6478b8e5ac5d99451bb041e3e4f741599463c1"
+  integrity sha512-q2VZynMQOnvN59+TjOewW4R9Ggpm01LkB7oBb3ot7ETDeHVPvzNtx5PEpmLvE97oOOYAAXLurUXLYXi5+UDIsw==
   dependencies:
     "@vitejs/plugin-react" "^1.3.0"
     abort-controller "^3.0.0"
