@@ -59,7 +59,7 @@
     "@shopify/plugin-ngrok": "3.24.1"
   },
   "devDependencies": {
-    "vitest": "^0.22.1"
+    "vitest": "^0.29.8"
   },
   "engine-strict": true,
   "engines": {
