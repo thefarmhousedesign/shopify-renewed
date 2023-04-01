@@ -2629,14 +2629,14 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.0.3.tgz#953b88c20ea00d0eddaffdc1b115c08474aa295d"
   integrity sha512-ceuyTSs7PZ/tQqi19YZNBc5X7kj1f8p+4DIyrcIYFY9h+hd1OKm4RqtiWldR9eGEvIiJfsqwM4BsuCtRIuEw6Q==
 
-"@remote-ui/async-subscription@^2.1.10", "@remote-ui/async-subscription@^2.1.12", "@remote-ui/async-subscription@^2.1.13":
+"@remote-ui/async-subscription@^2.1.12", "@remote-ui/async-subscription@^2.1.13":
   version "2.1.13"
   resolved "https://registry.yarnpkg.com/@remote-ui/async-subscription/-/async-subscription-2.1.13.tgz#458ca03d407e2bd931ef2b5246a7c2b79f44a13d"
   integrity sha512-Mc7iZ4nCIizdG/UWTW31HdtdmGpmjTah6Im+NJgwmmXZ8cnfFjxHFgpKc+kIhJTVKdmuN4KFHmNIXVSmeMTZdA==
   dependencies:
     "@remote-ui/rpc" "^1.3.4"
 
-"@remote-ui/core@^2.1.10", "@remote-ui/core@^2.1.12", "@remote-ui/core@^2.1.15", "@remote-ui/core@^2.1.16", "@remote-ui/core@^2.1.3", "@remote-ui/core@^2.1.6":
+"@remote-ui/core@2.1.x", "@remote-ui/core@^2.1.15", "@remote-ui/core@^2.1.16", "@remote-ui/core@^2.1.3", "@remote-ui/core@^2.1.6":
   version "2.1.16"
   resolved "https://registry.yarnpkg.com/@remote-ui/core/-/core-2.1.16.tgz#8b5fbfdc22a5619334d29a4cb7d4fd20bf67c5f3"
   integrity sha512-PcaljPmv0Ra8PeRT+M/vKPTYSkU1KssjwB2gjcE+TK2zM2SBbJwB5K18MjJhNlb9n6LTFE99fDqYxc5DbCyMIg==
@@ -2644,7 +2644,7 @@
     "@remote-ui/rpc" "^1.3.4"
     "@remote-ui/types" "^1.1.2"
 
-"@remote-ui/react@^4.1.3", "@remote-ui/react@^4.1.5", "@remote-ui/react@^4.5.11", "@remote-ui/react@^4.5.2", "@remote-ui/react@^4.5.4":
+"@remote-ui/react@4.5.x", "@remote-ui/react@^4.1.3", "@remote-ui/react@^4.1.5", "@remote-ui/react@^4.5.11":
   version "4.5.13"
   resolved "https://registry.yarnpkg.com/@remote-ui/react/-/react-4.5.13.tgz#5107c0f5687948cc68eb4e8e4efee6818c4c0152"
   integrity sha512-T3AhJClw5clZ2QO4ay02ACtUEaCuGIGwJI0glxA2CXsqOZUpy5LWWnK5OEek/G0XWplN3Mzcx8O+5hnl3x6IvA==
@@ -2739,23 +2739,15 @@
     "@shopify/checkout-ui-extensions" "^0.20.0"
     "@types/react" ">=17.0.0 <18.0.0"
 
-"@shopify/checkout-ui-extensions-react@^0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@shopify/checkout-ui-extensions-react/-/checkout-ui-extensions-react-0.17.1.tgz#d094ee77e54736c283b22aa955d483332c106581"
-  integrity sha512-TiGSVLwJ4Azod2MAzon7+bLKdh88AWkcPUxNK34U0tm01zXEaRFZOhagY+nkmWEAw1rCa9PsHVruxLU9qiOMpQ==
+"@shopify/checkout-ui-extensions-react@^0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@shopify/checkout-ui-extensions-react/-/checkout-ui-extensions-react-0.24.0.tgz#34b6002412f936f880d96f661d95dd9c6b8b6190"
+  integrity sha512-Bf0+or6kRrRKlnECugIYYVGiGwUsWVmQmjjEXhqanU/XmhaVXvW0SXjGJTkUcBu1gu4CxJL1L5BuxZhZhDK5OQ==
   dependencies:
-    "@remote-ui/async-subscription" "^2.1.10"
-    "@remote-ui/react" "^4.5.4"
-    "@shopify/checkout-ui-extensions" "^0.17.1"
+    "@remote-ui/async-subscription" "^2.1.12"
+    "@remote-ui/react" "4.5.x"
+    "@shopify/checkout-ui-extensions" "^0.24.0"
     "@types/react" ">=17.0.0 <18.0.0"
-
-"@shopify/checkout-ui-extensions@^0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@shopify/checkout-ui-extensions/-/checkout-ui-extensions-0.17.1.tgz#757a9ff008ffbaf3c61027926478db12d5409dbb"
-  integrity sha512-45Zx2AQpq+rMRkhR8NtH5tyTif/KgjF9m+pTtME2tfoJyTXJUtQU5A1woDFpTLvenwf3e7r4ARauQGRqZS1PAA==
-  dependencies:
-    "@remote-ui/async-subscription" "^2.1.10"
-    "@remote-ui/core" "^2.1.12"
 
 "@shopify/checkout-ui-extensions@^0.20.0":
   version "0.20.0"
@@ -2765,22 +2757,32 @@
     "@remote-ui/async-subscription" "^2.1.12"
     "@remote-ui/core" "^2.1.15"
 
-"@shopify/customer-account-ui-extensions-react@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@shopify/customer-account-ui-extensions-react/-/customer-account-ui-extensions-react-0.0.8.tgz#f515343cc2aa4975536e3cb886e1f5fdc88260e1"
-  integrity sha512-JvEfPEwgAY5bk7g2LoY98GPjw5o6f8OvoYubxYsohU7ed6rcVsF08e8RJNqmWRMhSH9WE9BNIktS6zuuKWRWfA==
+"@shopify/checkout-ui-extensions@^0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@shopify/checkout-ui-extensions/-/checkout-ui-extensions-0.24.0.tgz#47d6aa74c4314c3dcc13b6a27de24ca3b69cb7a3"
+  integrity sha512-WsnKS+n6ycrZpjkuRf4WZYeoxWHsyIih2I9RSKWC64eOvZ+mv3Qjzms8JQLOSrvAiw54ECNUnKuwaQCqjFYNzg==
   dependencies:
-    "@remote-ui/react" "^4.5.2"
-    "@shopify/checkout-ui-extensions-react" "^0.17.1"
-    "@shopify/customer-account-ui-extensions" "^0.0.8"
+    "@remote-ui/async-subscription" "^2.1.12"
+    "@remote-ui/core" "2.1.x"
 
-"@shopify/customer-account-ui-extensions@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@shopify/customer-account-ui-extensions/-/customer-account-ui-extensions-0.0.8.tgz#91aa2bc859290da0ba6c06a5e0a3d72927afd44f"
-  integrity sha512-cAwyPY9Hrz3Il/h4kMZWX264dZnu+cKtq0Opygsv+aIx9wBs0+kmcdcCHw41NfFDgAz9F46nzuhRrvhQweGWkw==
+"@shopify/customer-account-ui-extensions-react@^0.0.36":
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/@shopify/customer-account-ui-extensions-react/-/customer-account-ui-extensions-react-0.0.36.tgz#24fd03e59c2b027c2327881946d0ad64e0d1d6d7"
+  integrity sha512-2Y1p6+plDTf9X/ZvHkwGcPZVQ/NXN1T31xSHEKMttIb+ssg2UZf6O0wApA54IWqMJhmewwvO0idTPRtJht4iXw==
   dependencies:
-    "@remote-ui/core" "^2.1.10"
-    "@shopify/checkout-ui-extensions" "^0.17.1"
+    "@remote-ui/async-subscription" "^2.1.12"
+    "@remote-ui/react" "4.5.x"
+    "@shopify/checkout-ui-extensions-react" "^0.24.0"
+    "@shopify/customer-account-ui-extensions" "^0.0.35"
+
+"@shopify/customer-account-ui-extensions@^0.0.35":
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/@shopify/customer-account-ui-extensions/-/customer-account-ui-extensions-0.0.35.tgz#34596d5d7405b57fa1ed6681b42c84e15d159a24"
+  integrity sha512-xa96ERwhriwNicKMKGPh7cwiCH61QCv+KXW6d18mF/e1hayrYhP3tDBr+YPIlxvMvf0XRDuiEx1c1w216QVfVQ==
+  dependencies:
+    "@remote-ui/async-subscription" "^2.1.12"
+    "@remote-ui/core" "2.1.x"
+    "@shopify/checkout-ui-extensions" "^0.24.0"
 
 "@shopify/dates@^1.1.5":
   version "1.1.5"
