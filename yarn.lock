@@ -2261,6 +2261,13 @@
   dependencies:
     nx "14.8.6"
 
+"@nrwl/cli@14.8.8":
+  version "14.8.8"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.8.8.tgz#ec6dea0d142a760134cdfe33d80a168d8732cced"
+  integrity sha512-xV1Mu93w5e1Vsd3Pgy9eFC1MHjuLxAAHta5cNgQGxjev+XpnNrGb0x978zpenX7dJ0Pww3Vvi/vdcsaDNg6z4Q==
+  dependencies:
+    nx "14.8.8"
+
 "@nrwl/devkit@14.8.6":
   version "14.8.6"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-14.8.6.tgz#8a811c760e39e272a95799a640c740d0e185055d"
@@ -2332,12 +2339,19 @@
     tmp "~0.2.1"
     tslib "^2.3.0"
 
-"@nrwl/tao@14.8.6", "@nrwl/tao@^14.0.1":
+"@nrwl/tao@14.8.6":
   version "14.8.6"
   resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.8.6.tgz#5055af46942744fae0b88beedbf2ad016ab53b2b"
   integrity sha512-CByqrsfSJeonOd7TLAHP8bRYNWgDksxA7j+yncSzgQnFLEbZdJGG/AqqIovx8g6g2v0JS+nRgGC+w5UPf04UrQ==
   dependencies:
     nx "14.8.6"
+
+"@nrwl/tao@14.8.8", "@nrwl/tao@^14.8.8":
+  version "14.8.8"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.8.8.tgz#e09ff9806d5797a019a74c2f3cbae86f4a0c3508"
+  integrity sha512-cfTNM2cgI1miKLkGemU09v72EEYiRxyRw1jdHJ/zShcvcvt8CZI9mUtcV578Cx1K2yNFLseFkUS0rGh+fbcmrA==
+  dependencies:
+    nx "14.8.8"
 
 "@nrwl/workspace@14.8.6", "@nrwl/workspace@^14.5.10":
   version "14.8.6"
@@ -10444,13 +10458,54 @@ nwsapi@^2.2.2:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.2.tgz#e5418863e7905df67d51ec95938d67bf801f0bb0"
   integrity sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==
 
-nx@14.8.6, nx@^14.5.10:
+nx@14.8.6:
   version "14.8.6"
   resolved "https://registry.yarnpkg.com/nx/-/nx-14.8.6.tgz#50bdfde1638478c60d9646d1d23e984a09801d38"
   integrity sha512-QLU3sip/g3JdNO8n5Nw2esN+0G26Jsy3u1LlrB9Giu4zf/+KsfN8CcXMbEVqOnPR1FkCS52xliaq7IBQfvvMQA==
   dependencies:
     "@nrwl/cli" "14.8.6"
     "@nrwl/tao" "14.8.6"
+    "@parcel/watcher" "2.0.4"
+    "@yarnpkg/lockfile" "^1.1.0"
+    "@yarnpkg/parsers" "^3.0.0-rc.18"
+    "@zkochan/js-yaml" "0.0.6"
+    axios "^1.0.0"
+    chalk "4.1.0"
+    chokidar "^3.5.1"
+    cli-cursor "3.1.0"
+    cli-spinners "2.6.1"
+    cliui "^7.0.2"
+    dotenv "~10.0.0"
+    enquirer "~2.3.6"
+    fast-glob "3.2.7"
+    figures "3.2.0"
+    flat "^5.0.2"
+    fs-extra "^10.1.0"
+    glob "7.1.4"
+    ignore "^5.0.4"
+    js-yaml "4.1.0"
+    jsonc-parser "3.2.0"
+    minimatch "3.0.5"
+    npm-run-path "^4.0.1"
+    open "^8.4.0"
+    semver "7.3.4"
+    string-width "^4.2.3"
+    strong-log-transformer "^2.1.0"
+    tar-stream "~2.2.0"
+    tmp "~0.2.1"
+    tsconfig-paths "^3.9.0"
+    tslib "^2.3.0"
+    v8-compile-cache "2.3.0"
+    yargs "^17.4.0"
+    yargs-parser "21.0.1"
+
+nx@14.8.8, nx@^14.5.10:
+  version "14.8.8"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-14.8.8.tgz#f33e8ca6bd197a5eaba93ff751ace4c33f2c3bed"
+  integrity sha512-hXoTcBjY+3+OituiSE9G44CjwfbFVEtw6W9Hl0DxcFW+Vb9V+sa/LHAQbIq1GXvr819sBduP0bncowUoOq6iBg==
+  dependencies:
+    "@nrwl/cli" "14.8.8"
+    "@nrwl/tao" "14.8.8"
     "@parcel/watcher" "2.0.4"
     "@yarnpkg/lockfile" "^1.1.0"
     "@yarnpkg/parsers" "^3.0.0-rc.18"
