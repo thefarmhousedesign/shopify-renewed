@@ -8307,10 +8307,10 @@ ink@3.2.0:
     ws "^7.5.5"
     yoga-layout-prebuilt "^1.9.6"
 
-inquirer-autocomplete-prompt@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/inquirer-autocomplete-prompt/-/inquirer-autocomplete-prompt-2.0.0.tgz#28d742e5bc411ce52c8ce21509279e12b21a76f3"
-  integrity sha512-c2LljLP3ewVJe4AUZzKdA6oWjqhpy5pfsisHAjh7mP3WUQ/O02x5OLMMqcLOYuRHx6i2hlVSIhUv0xYGyFxFYA==
+inquirer-autocomplete-prompt@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/inquirer-autocomplete-prompt/-/inquirer-autocomplete-prompt-2.0.1.tgz#72868aada4d9d36814a6054cbd1ececc63aab0c6"
+  integrity sha512-jUHrH0btO7j5r8DTQgANf2CBkTZChoVySD8zF/wp5fZCOLIuUbleXhf4ZY5jNBOc1owA3gdfWtfZuppfYBhcUg==
   dependencies:
     ansi-escapes "^4.3.2"
     figures "^3.2.0"
