@@ -3241,10 +3241,10 @@
   resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.2.tgz#66ad9331f63fe8a3d3d9d8c6e3906dd10f6446e8"
   integrity sha512-t73xJJrvdTjXrn4jLS9VSGRbz0nUY3cl2DMGDU48lKl+HR9dbbjW2A9r3g40VA++mQpy6uuHg33gy7du2BKpog==
 
-"@types/cross-zip@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@types/cross-zip/-/cross-zip-4.0.0.tgz#322953492dcadc67bcf3991c1d51a56fd499ed9f"
-  integrity sha512-jZRaaM3aib7qgVhCWeo76vVNJW+8+ujJzP/JHPPA4WUp5YBNMsqiyu5uYWg2eS05+jgSfb5NN8eqrAG72Ab2kA==
+"@types/cross-zip@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/cross-zip/-/cross-zip-4.0.1.tgz#7a425c6ccc62503824aa46cffd23afd8a4e8c5ba"
+  integrity sha512-c8wbXJAN1zdgxBFmhE0riYqea9St9ctHZgIWU/fP11ai+apZlGk9kjbmDQSGncAyScM1tPdNdUaAKk9am/rHoQ==
 
 "@types/cucumber@^7.0.0":
   version "7.0.0"
