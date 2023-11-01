@@ -3074,15 +3074,10 @@
   resolved "https://registry.yarnpkg.com/@shopify/useful-types/-/useful-types-4.0.3.tgz#06b5ba0a46e0879ae57edeaf93148f2ec151c9b7"
   integrity sha512-vT48uKFSTfI3HPqtNI3lahWRDncFuuzBVfj2eUxEpQO//3Sn+IIo4zRPT9W4EHBiVWJyBeW5CTzVtvGhQma4EA==
 
-"@shopify/web-pixels-extension@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@shopify/web-pixels-extension/-/web-pixels-extension-0.1.4.tgz#0e1af76a1d2db9c59bb07320b7844984450c8057"
-  integrity sha512-r1RKI4BsyYKuNtNoAlBZoQaMgOAra5WpzkQ1EQnuUKV9df9LFBQu30oZumt9iAUzMYeX8v80uvUoYvZYH2DcDg==
-
-"@shopify/web-pixels-extension@^0.1.1":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@shopify/web-pixels-extension/-/web-pixels-extension-0.1.6.tgz#a69c70131042e2bca0cd35f2f16268e96d7a16c8"
-  integrity sha512-ejc/cnn+g1xYBCI3kAPkDIahvbm5EjDIedpZSiSHfPcvYMVTkj0bRHstQnPYkhItWpme5LRM/CN9iYrZwe4DtQ==
+"@shopify/web-pixels-extension@0.4.22", "@shopify/web-pixels-extension@^0.4.22":
+  version "0.4.22"
+  resolved "https://registry.yarnpkg.com/@shopify/web-pixels-extension/-/web-pixels-extension-0.4.22.tgz#61f6635d2fc4c22fd267f34fc91bf3d560c65d83"
+  integrity sha512-F4Yg/GWdr40Ub81Gh7C+ce/JijFLe0NJMtRQxAGOKlIQf/zwnIaJg90uPY5FpI/YP8OTYxaYQ6xX/c7r5eLL9Q==
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
