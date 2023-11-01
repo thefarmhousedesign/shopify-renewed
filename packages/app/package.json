@@ -67,7 +67,7 @@
     "@types/http-proxy": "^1.17.9",
     "@types/serve-static": "^1.15.0",
     "@types/ws": "^8.5.3",
-    "@types/lodash-es": "^4.17.6",
+    "@types/lodash-es": "^4.17.10",
     "vitest": "^0.22.1"
   },
   "dependencies": {
