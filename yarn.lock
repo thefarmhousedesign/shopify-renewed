@@ -9359,10 +9359,10 @@ keyv@^4.0.0:
   dependencies:
     json-buffer "3.0.1"
 
-kill-port-process@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/kill-port-process/-/kill-port-process-3.1.0.tgz#b45b32fc49ee36966b1a2fcf87f7b39fbd71471e"
-  integrity sha512-sVODd2xDGzN3OaLGhHcJPiaRwWK0QZc+bD5YQTo3Xgh1AUg1AZgDYDeqRI6ILg4AhWrmSpupGwQEFK1G0Sy2fw==
+kill-port-process@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/kill-port-process/-/kill-port-process-3.2.1.tgz#be7e5b7cacc448ee511e82ff007b7236028e5323"
+  integrity sha512-9rRL5uivhIaW82ES0xTeciG5dfHUVQ0MqUycyf6Y1GBzDNB/fHxKStFUqnL4hCwGp89AcrKIjJWEVZHhSUi9LQ==
   dependencies:
     get-them-args "1.3.2"
     pid-from-port "1.1.3"
