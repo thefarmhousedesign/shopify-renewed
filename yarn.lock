@@ -12040,10 +12040,10 @@ saslprep@^1.0.3:
   dependencies:
     sparse-bitfield "^3.0.3"
 
-sass@^1.42.1:
-  version "1.56.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.56.1.tgz#94d3910cd468fd075fa87f5bb17437a0b617d8a7"
-  integrity sha512-VpEyKpyBPCxE7qGDtOcdJ6fFbcpOM+Emu7uZLxVrkX8KVU/Dp5UF7WLvzqRuUhB6mqqQt1xffLoG+AndxTZrCQ==
+sass@^1.72.0:
+  version "1.72.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.72.0.tgz#5b9978943fcfb32b25a6a5acb102fc9dabbbf41c"
+  integrity sha512-Gpczt3WA56Ly0Mn8Sl21Vj94s1axi9hDIzDFn9Ph9x3C3p4nNyvsqJoQyVXKou6cBlfFWEgRW4rT8Tb4i3XnVA==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
