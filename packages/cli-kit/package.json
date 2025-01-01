@@ -82,7 +82,7 @@
     "envfile": "6.18.0",
     "execa": "6.0.0",
     "fast-glob": "3.2.11",
-    "find-process": "1.4.7",
+    "find-process": "1.4.8",
     "find-up": "6.2.0",
     "find-versions": "5.0.0",
     "form-data": "4.0.0",
