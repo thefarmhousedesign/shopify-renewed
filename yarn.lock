@@ -4825,7 +4825,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
+chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2, chalk@~4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -5161,6 +5161,11 @@ commander@9.4.1, commander@^9.0.0, commander@^9.4.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.1.tgz#d1dd8f2ce6faf93147295c0df13c7c21141cfbdd"
   integrity sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==
 
+commander@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-12.1.0.tgz#01423b36f501259fdaac4d0e4d60c96c991585d3"
+  integrity sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==
+
 commander@^2.8.1:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -5170,11 +5175,6 @@ commander@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
-
-commander@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
-  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
 
 comment-parser@1.3.1:
   version "1.3.1"
@@ -7315,14 +7315,14 @@ find-nearest-file@^1.1.0:
   resolved "https://registry.yarnpkg.com/find-nearest-file/-/find-nearest-file-1.1.0.tgz#e29441740329a2015f7655faecd7b85e02cad686"
   integrity sha512-NMsS0ITOwpBPrHOyO7YUtDhaVEGUKS0kBJDVaWZPuCzO7JMW+uzFQQVts/gPyIV9ioyNWDb5LjhHWXVf1OnBDA==
 
-find-process@1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/find-process/-/find-process-1.4.7.tgz#8c76962259216c381ef1099371465b5b439ea121"
-  integrity sha512-/U4CYp1214Xrp3u3Fqr9yNynUrr5Le4y0SsJh2lMDDSbpwYSz3M2SMWQC+wqcx79cN8PQtHQIL8KnuY9M66fdg==
+find-process@1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/find-process/-/find-process-1.4.10.tgz#006af3349d8debdb9fb79fb1e859959350307c02"
+  integrity sha512-ncYFnWEIwL7PzmrK1yZtaccN8GhethD37RzBHG6iOZoFYB4vSmLLXfeWJjeN5nMvCJMjOtBvBBF8OgxEcikiZg==
   dependencies:
-    chalk "^4.0.0"
-    commander "^5.1.0"
-    debug "^4.1.1"
+    chalk "~4.1.2"
+    commander "^12.1.0"
+    loglevel "^1.9.2"
 
 find-replace@^3.0.0:
   version "3.0.0"
@@ -9652,6 +9652,11 @@ log-update@4.0.0, log-update@^4.0.0:
     cli-cursor "^3.1.0"
     slice-ansi "^4.0.0"
     wrap-ansi "^6.2.0"
+
+loglevel@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.9.2.tgz#c2e028d6c757720107df4e64508530db6621ba08"
+  integrity sha512-HgMmCqIJSAKqo68l0rS2AanEWfkxaZ5wNiEFb5ggm08lDs9Xl2KxBlX3PTcaD2chBM1gXAYf491/M2Rv8Jwayg==
 
 long@^4.0.0:
   version "4.0.0"
