@@ -3059,10 +3059,10 @@
     esbuild "^0.12.22"
     js-yaml "^4.1.0"
 
-"@shopify/typescript-configs@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@shopify/typescript-configs/-/typescript-configs-5.1.0.tgz#f6e8fdd3291bf0a406578b2c6eb21f8c542d3c0a"
-  integrity sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==
+"@shopify/typescript-configs@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@shopify/typescript-configs/-/typescript-configs-5.1.2.tgz#cbf3957b9a9e29acc37814c84d5933a21a624f5b"
+  integrity sha512-QNQlCxJGyKXXbLHsf4y0ZUZhmK/1LL5MN/YHl54UxakDILiBRKiWh0t7qbVo01tsyyH+YcrH7d8y9Ch2ywP8pg==
 
 "@shopify/ui-extensions@^1.0.1":
   version "1.0.2"
