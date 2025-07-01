@@ -65,7 +65,7 @@
   "devDependencies": {
     "@types/diff": "^5.0.2",
     "@types/http-proxy": "^1.17.9",
-    "@types/serve-static": "^1.15.0",
+    "@types/serve-static": "^1.15.8",
     "@types/ws": "^8.5.3",
     "@types/lodash-es": "^4.17.6",
     "vitest": "^0.22.1"
@@ -80,7 +80,7 @@
     "diff": "5.1.0",
     "esbuild": "0.15.7",
     "http-proxy": "1.18.1",
-    "serve-static": "1.15.0",
+    "serve-static": "1.16.2",
     "ws": "8.8.1",
     "lodash-es": "4.17.21"
   },
