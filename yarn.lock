@@ -2721,10 +2721,10 @@
   dependencies:
     "@shopify/app-bridge" "^2.3.0"
 
-"@shopify/app-bridge@^2.0.19", "@shopify/app-bridge@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@shopify/app-bridge/-/app-bridge-2.3.0.tgz#894f5351128dd74e9a1f2422436a7eaa84d76a7d"
-  integrity sha512-L9N+QRIkuhyOBAI+9SqG7v+6g6I7vvLFeVvKP9nbWVyo1voUGsw2HqDGOyoGIOznJvUs5lYki6KdxBPJKY0foA==
+"@shopify/app-bridge@^2.3.0", "@shopify/app-bridge@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@shopify/app-bridge/-/app-bridge-2.3.1.tgz#efa16a45a20b9e75460a51fe4439118216202223"
+  integrity sha512-Oq7EYEypvzUFUNoG0nHxUUIooiml3NMB2AdsNxbIutY//3byFXqx1bxhh3QfO1SCa/EZCl7pcKLouGh14ETiVg==
   dependencies:
     base64url "^3.0.1"
     web-vitals "^3.0.1"
