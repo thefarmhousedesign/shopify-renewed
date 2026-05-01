@@ -123,7 +123,7 @@
     "zod": "3.17.3"
   },
   "devDependencies": {
-    "@types/commondir": "^1.0.0",
+    "@types/commondir": "^1.0.2",
     "@types/cross-zip": "^4.0.0",
     "@types/diff": "^5.0.2",
     "@types/inquirer": "^8.2.1",
