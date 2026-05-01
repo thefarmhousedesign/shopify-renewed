@@ -2636,13 +2636,13 @@
   dependencies:
     "@remote-ui/rpc" "^1.3.4"
 
-"@remote-ui/core@^2.1.10", "@remote-ui/core@^2.1.12", "@remote-ui/core@^2.1.15", "@remote-ui/core@^2.1.16", "@remote-ui/core@^2.1.3", "@remote-ui/core@^2.1.6":
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/@remote-ui/core/-/core-2.1.16.tgz#8b5fbfdc22a5619334d29a4cb7d4fd20bf67c5f3"
-  integrity sha512-PcaljPmv0Ra8PeRT+M/vKPTYSkU1KssjwB2gjcE+TK2zM2SBbJwB5K18MjJhNlb9n6LTFE99fDqYxc5DbCyMIg==
+"@remote-ui/core@2.1.x", "@remote-ui/core@^2.1.10", "@remote-ui/core@^2.1.12", "@remote-ui/core@^2.1.15", "@remote-ui/core@^2.1.16", "@remote-ui/core@^2.1.3", "@remote-ui/core@^2.1.6":
+  version "2.1.17"
+  resolved "https://registry.yarnpkg.com/@remote-ui/core/-/core-2.1.17.tgz#db879a22ececaffaf3f70dbaffcdf5f36cf91583"
+  integrity sha512-zbvjNWhBZYIBCgIo1LCDZ/u4HX2+sfqLdekBxGO2B69uuAK8Xg733u8/kmusKa3zNbIqJumsh2fIXP/l3Bk0pg==
   dependencies:
-    "@remote-ui/rpc" "^1.3.4"
-    "@remote-ui/types" "^1.1.2"
+    "@remote-ui/rpc" "^1.3.6"
+    "@remote-ui/types" "^1.1.3"
 
 "@remote-ui/react@^4.1.3", "@remote-ui/react@^4.1.5", "@remote-ui/react@^4.5.11", "@remote-ui/react@^4.5.2", "@remote-ui/react@^4.5.4":
   version "4.5.13"
@@ -2661,10 +2661,15 @@
   resolved "https://registry.yarnpkg.com/@remote-ui/rpc/-/rpc-1.3.4.tgz#99568362349c630c42c6b60d6a04a3b8c11e704e"
   integrity sha512-KwZ2egbGQqO+DjgwoZlQ4QedMZHeFuGY/2FiGUrqvyhp4bGheSLr5bm3jF23+2tQVywUHB2gDPqzUgR/47Lb2g==
 
-"@remote-ui/types@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@remote-ui/types/-/types-1.1.2.tgz#ae9219a56bb4bb6ff5aabfacb29a1e71adbd97d4"
-  integrity sha512-F2u6McqvHj2c89FHeozQ0O8qbqhOFMMNYR2HqF33mHCMNTEXzUVheCj7laNO1/dGNXwcJHpoWIBNwfChbEfVyA==
+"@remote-ui/rpc@^1.3.6":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@remote-ui/rpc/-/rpc-1.4.7.tgz#0b353b2fcc95db17a23b4f90d1a587d7e906c77f"
+  integrity sha512-ORiaKsbVBSEi3Z4YWOj5Ucrp70NrkNktI1hdqqfBW7Z3o0YoxTX9MIqtLmsc6721IbjmExvLrLip5I5Y7uAbng==
+
+"@remote-ui/types@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@remote-ui/types/-/types-1.1.3.tgz#b2a790d5be50fb82d89d4abea9883f87f83a5a25"
+  integrity sha512-P1kN1F3p0oMgnLN8Of1Ie9am3sLvJ7nhqHH1pvzkrxqjVwhhyPVZNcwOHyUNZPKp62izhDavdrcnqrdXzVJqGA==
 
 "@rollup/pluginutils@^4.1.1", "@rollup/pluginutils@^4.1.2", "@rollup/pluginutils@^4.2.1":
   version "4.2.1"
@@ -2692,20 +2697,12 @@
     "@shopify/admin-ui-extensions" "^1.0.4"
     "@types/react" ">=17.0.0 <18.0.0"
 
-"@shopify/admin-ui-extensions@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@shopify/admin-ui-extensions/-/admin-ui-extensions-1.0.1.tgz#fff57b5f554e82e28b7a426541ef5ca1094e41ae"
-  integrity sha512-L7hZdshRUb7/CvCCP8oRqzc1jeuNz6Q2ZJXEBJ46UR2fBc2o9I1ouUkFtviyZgfOLZkcbbfvedPm4EofckrFGg==
+"@shopify/admin-ui-extensions@1.1.0", "@shopify/admin-ui-extensions@^1.0.1", "@shopify/admin-ui-extensions@^1.0.4":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@shopify/admin-ui-extensions/-/admin-ui-extensions-1.1.0.tgz#de688426931f26ceaf6b9bb1911cb4cc2de9ec3a"
+  integrity sha512-fBTo7HZPCqWSJ25ttiz+BpCcBHCBy8p/oT7No/OSY4j73yA1yyxifud92dlMcoL7gLR0nRDpgvBLHYhEEGPiHg==
   dependencies:
-    "@remote-ui/core" "^2.1.3"
-    "@shopify/ui-extensions" "^1.0.1"
-
-"@shopify/admin-ui-extensions@^1.0.1", "@shopify/admin-ui-extensions@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@shopify/admin-ui-extensions/-/admin-ui-extensions-1.0.4.tgz#00825fa21521ccce5c3904698e9ded7f9c581a15"
-  integrity sha512-SnF9eoF+jd0YOT5NvyPZRbDoh3TOrCfumQjjxvijBjNUnem6ASzVYGTTHj5XEm324G7zH08+6ndPTFlSolTWlw==
-  dependencies:
-    "@remote-ui/core" "^2.1.3"
+    "@remote-ui/core" "2.1.x"
 
 "@shopify/app-bridge-react@^2.0.19":
   version "2.3.0"
@@ -3063,11 +3060,6 @@
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@shopify/typescript-configs/-/typescript-configs-5.1.0.tgz#f6e8fdd3291bf0a406578b2c6eb21f8c542d3c0a"
   integrity sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==
-
-"@shopify/ui-extensions@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@shopify/ui-extensions/-/ui-extensions-1.0.2.tgz#1fbda5d10bff9a43bba2c769b85a844a00dcf8be"
-  integrity sha512-vH6wGbVqfTbatyJmL6N33aHzK/hYry4gWNzZcvh/xdPmeciEyORh+CcZRrtf2yNz2p3hRpDPqbEJgB7BGHEQfA==
 
 "@shopify/useful-types@^4.0.3":
   version "4.0.3"
