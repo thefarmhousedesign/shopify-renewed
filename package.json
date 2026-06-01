@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@apollo/client": "^3.4.8",
-    "@bugsnag/source-maps": "^2.3.0",
+    "@bugsnag/source-maps": "^2.3.3",
     "@changesets/cli": "2.25.2",
     "@nrwl/eslint-plugin-nx": "^14.0.5",
     "@nrwl/js": "^14.0.5",
